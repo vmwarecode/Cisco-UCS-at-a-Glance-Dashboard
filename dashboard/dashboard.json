@@ -1,0 +1,1570 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1539269631533,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Custom Dashboards/Cisco UCS at a Glance",
+      "namePath": "Custom Dashboards",
+      "rank": 238,
+      "shared": false,
+      "temporary": false,
+      "userId": "dc28bdb0-202a-4747-90fe-842db2ce3987",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7490f590-4741-4ba4-99f4-d3bd12a461c9",
+            "widgetIdReceiver": "6e1ad948-d49b-4dab-a106-dd1e72713110"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7490f590-4741-4ba4-99f4-d3bd12a461c9",
+            "widgetIdReceiver": "1572290a-a9e5-43aa-84cd-3dae51990220"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "1572290a-a9e5-43aa-84cd-3dae51990220",
+            "widgetIdReceiver": "d2edb5d1-4184-442b-acad-030c1f1ddbfd"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "1572290a-a9e5-43aa-84cd-3dae51990220",
+            "widgetIdReceiver": "e913a2f4-20dd-42a2-90cf-e021b106f068"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "6e1ad948-d49b-4dab-a106-dd1e72713110",
+            "widgetIdReceiver": "7eb3e32e-c778-4b58-bfef-0ff6fa2006ff"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "1572290a-a9e5-43aa-84cd-3dae51990220",
+            "widgetIdReceiver": "687a29c2-7f10-4e14-bed7-370c88abb871"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d2edb5d1-4184-442b-acad-030c1f1ddbfd",
+            "widgetIdReceiver": "4529e124-a6d2-4d13-af5f-4042bff9a42c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "e913a2f4-20dd-42a2-90cf-e021b106f068",
+            "widgetIdReceiver": "214b5349-fafa-44ec-bcca-20b278124d87"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "0382b8ac-2e47-4d64-a3b2-bb504a118b70",
+            "widgetIdReceiver": "7490f590-4741-4ba4-99f4-d3bd12a461c9"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "e913a2f4-20dd-42a2-90cf-e021b106f068",
+            "widgetIdReceiver": "02f5eb16-4b89-4d0d-a72a-00df8d0045d6"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "02f5eb16-4b89-4d0d-a72a-00df8d0045d6",
+            "widgetIdReceiver": "5e2c97e7-8812-422a-9d5e-2c44dad6a26c"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d2edb5d1-4184-442b-acad-030c1f1ddbfd",
+            "widgetIdReceiver": "97dda3a5-a05f-4ec7-9383-516c47119a05"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "d2edb5d1-4184-442b-acad-030c1f1ddbfd",
+            "widgetIdReceiver": "933e7d9d-75e0-45d5-b7ca-e51a3968e7ed"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "97dda3a5-a05f-4ec7-9383-516c47119a05",
+            "widgetIdReceiver": "85d23934-2a55-436a-bf9d-6b8b4e8f44a2"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "933e7d9d-75e0-45d5-b7ca-e51a3968e7ed",
+            "widgetIdReceiver": "1e39dfa7-715d-45ab-b4cc-d20cad63f9e8"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "IP Address",
+                     "metricKey": "general|address",
+                     "metricName": "General|IP Address",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  },
+                  {
+                     "boxLabel": "Up Time (d:h:m:s)",
+                     "metricKey": "general|systemUpTime",
+                     "metricName": "General|System Up Time",
+                     "resourceKindId": "resourceKind:id:0_::_"
+                  }
+               ],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:0_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Cisco UCS Managers (in related UCSC instance or directly connected)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 9,
+               "y": 1
+            },
+            "height": 210,
+            "id": "7490f590-4741-4ba4-99f4-d3bd12a461c9",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_7490f590-4741-4ba4-99f4-d3bd12a461c9",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permResGrid_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_7490f590-4741-4ba4-99f4-d3bd12a461c9",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A370%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A153%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A119%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A112%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A148%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "Cisco UCS Managers (in related UCSC instance or directly connected)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Management IP",
+                     "metricKey": "general|oobIfIp",
+                     "metricName": "General|Management IP",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Serial Number",
+                     "metricKey": "general|serial",
+                     "metricName": "General|Serial Number",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  }
+               ],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:1_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:1_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Cisco UCS Fabric Interconnects (for selected UCS Manager)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 5
+            },
+            "height": 210,
+            "id": "6e1ad948-d49b-4dab-a106-dd1e72713110",
+            "states": [{
+               "key": "permResGrid_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_6e1ad948-d49b-4dab-a106-dd1e72713110",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A198%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A239%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A136%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A153%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Cisco UCS Fabric Interconnects (for selected UCS Manager)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Service Profile",
+                     "metricKey": "blade|assignedToDn",
+                     "metricName": "Blade|Service Profile",
+                     "resourceKindId": "resourceKind:id:2_::_"
+                  },
+                  {
+                     "boxLabel": "Serial Number",
+                     "metricKey": "general|serial",
+                     "metricName": "General|Serial",
+                     "resourceKindId": "resourceKind:id:2_::_"
+                  }
+               ],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:2_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:2_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Cicso UCS Blades (for selected Fabric Interconnect)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 9
+            },
+            "height": 210,
+            "id": "d2edb5d1-4184-442b-acad-030c1f1ddbfd",
+            "states": [{
+               "key": "permResGrid_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_d2edb5d1-4184-442b-acad-030c1f1ddbfd",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A208%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A125%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A144%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Cicso UCS Blades (for selected Fabric Interconnect)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Model",
+                     "metricKey": "general|model",
+                     "metricName": "General|Model",
+                     "resourceKindId": "resourceKind:id:3_::_"
+                  },
+                  {
+                     "boxLabel": "Serial Number",
+                     "metricKey": "general|serial",
+                     "metricName": "General|Serial",
+                     "resourceKindId": "resourceKind:id:3_::_"
+                  }
+               ],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:3_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:3_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Cisco UCS Chassis (for selected Blade)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 21
+            },
+            "height": 210,
+            "id": "1572290a-a9e5-43aa-84cd-3dae51990220",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_1572290a-a9e5-43aa-84cd-3dae51990220",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permResGrid_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_1572290a-a9e5-43aa-84cd-3dae51990220",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A199%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A111%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A126%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "Cisco UCS Chassis (for selected Blade)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7167-1",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_received_ethernet_port_traffic|totalEthernetReceivedPackets",
+                        "metricName": "Aggregate Received Ethernet Port Traffic|Total Ethernet Received Packets",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7167-2",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_received_ethernet_port_traffic|totalEthernetReceivedThroughput",
+                        "metricName": "Aggregate Received Ethernet Port Traffic|Total Ethernet Received Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7167-3",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_received_fiber_channel_traffic|totalFiberReceivedPackets",
+                        "metricName": "Aggregate Received Fiber Channel Traffic|Total Fiber Channel Received Packets",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7167-4",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_received_fiber_channel_traffic|totalFiberReceivedBits",
+                        "metricName": "Aggregate Received Fiber Channel Traffic|Total Fiber Channel Received Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7167-5",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_sent_ethernet_port_traffic|totalEthernetSentPackets",
+                        "metricName": "Aggregate Sent Ethernet Port Traffic|Total Ethernet Sent Packets",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7167-6",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_sent_ethernet_port_traffic|totalEthernetSentThroughput",
+                        "metricName": "Aggregate Sent Ethernet Port Traffic|Total Ethernet Sent Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7167-7",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_sent_fiber_channel_traffic|totalFiberSentPackets",
+                        "metricName": "Aggregate Sent Fiber Channel Traffic|Total Fiber Channel Sent Packets",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7167-8",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_sent_fiber_channel_traffic|totalFiberSentBits",
+                        "metricName": "Aggregate Sent Fiber Channel Traffic|Total Fiber Channel Sent Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:1_::_",
+                        "resourceKindName": "Cisco UCS Fabric Interconnect",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Cisco UCS Fabric Interconnect Scoreboard (for selected Fabric Interconnect)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 8,
+               "x": 5,
+               "y": 5
+            },
+            "height": 210,
+            "id": "7eb3e32e-c778-4b58-bfef-0ff6fa2006ff",
+            "title": "Cisco UCS Fabric Interconnect Scoreboard (for selected Fabric Interconnect)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7708-1",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|numberOfSlots",
+                        "metricName": "Capacity|Number of Slots",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Cisco UCS Chassis",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7708-2",
+                        "isStringMetric": false,
+                        "metricKey": "capacity|slotsBeingUsed",
+                        "metricName": "Capacity|Slots Being Used",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Cisco UCS Chassis",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7708-3",
+                        "isStringMetric": false,
+                        "metricKey": "general|eventCount",
+                        "metricName": "General|Event Count",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Cisco UCS Chassis",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7708-4",
+                        "isStringMetric": false,
+                        "metricKey": "psu|totalOutputCurrent",
+                        "metricName": "Psu|Total Output Current",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Cisco UCS Chassis",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7708-5",
+                        "isStringMetric": false,
+                        "metricKey": "stats|inputPower",
+                        "metricName": "Stats|Input Power",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Cisco UCS Chassis",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel7708-6",
+                        "isStringMetric": false,
+                        "metricKey": "stats|outputPower",
+                        "metricName": "Stats|Output Power",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:3_::_",
+                        "resourceKindName": "Cisco UCS Chassis",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last24Hour",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Cisco UCS Chassis Scoreboard (for selected Chassis)",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 1,
+               "y": 25
+            },
+            "height": 267,
+            "id": "687a29c2-7f10-4e14-bed7-370c88abb871",
+            "title": "Cisco UCS Chassis Scoreboard (for selected Chassis)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8744-1",
+                        "isStringMetric": false,
+                        "metricKey": "blade|availableMemory",
+                        "metricName": "Blade|Effective Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Cisco UCS Blade",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8744-2",
+                        "isStringMetric": false,
+                        "metricKey": "blade|memorySpeed",
+                        "metricName": "Blade|Memory Speed",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Cisco UCS Blade",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8744-3",
+                        "isStringMetric": false,
+                        "metricKey": "blade|memoryUsage",
+                        "metricName": "Blade|Memory Usage",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Cisco UCS Blade",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8744-4",
+                        "isStringMetric": false,
+                        "metricKey": "blade|totalMemory",
+                        "metricName": "Blade|Total Memory",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Cisco UCS Blade",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8744-5",
+                        "isStringMetric": false,
+                        "metricKey": "general|eventCount",
+                        "metricName": "General|Event Count",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Cisco UCS Blade",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel8744-6",
+                        "isStringMetric": false,
+                        "metricKey": "general|slot_size",
+                        "metricName": "General|Slot Size",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:2_::_",
+                        "resourceKindName": "Cisco UCS Blade",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Cisco UCS Blade Scoreboard (for selected Blade)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 8,
+               "x": 5,
+               "y": 9
+            },
+            "height": 210,
+            "id": "4529e124-a6d2-4d13-af5f-4042bff9a42c",
+            "title": "Cisco UCS Blade Scoreboard (for selected Blade)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [{
+                  "boxLabel": "Firmware Version",
+                  "metricKey": "general|firmwareRunning",
+                  "metricName": "General|Firmware Version",
+                  "resourceKindId": "resourceKind:id:4_::_"
+               }],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:4_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:4_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Cicso UCS IO Modules (for selected Chassis)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 5,
+               "y": 21
+            },
+            "height": 210,
+            "id": "e913a2f4-20dd-42a2-90cf-e021b106f068",
+            "states": [{
+               "key": "permResGrid_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_e913a2f4-20dd-42a2-90cf-e021b106f068",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A226%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A202%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A140%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A157%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A144%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Cicso UCS IO Modules (for selected Chassis)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 2,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10292-1",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_received_ethernet_port_traffic|totalReceivedThroughput",
+                        "metricName": "Aggregate Received Ethernet Port Traffic|Total Received Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Cisco UCS IO Module",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10292-2",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_sent_ethernet_port_traffic|totalSentThroughput",
+                        "metricName": "Aggregate Sent Ethernet Port Traffic|Total Sent Throughput",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Cisco UCS IO Module",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10292-3",
+                        "isStringMetric": false,
+                        "metricKey": "general|eventCount",
+                        "metricName": "General|Event Count",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Cisco UCS IO Module",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10292-4",
+                        "isStringMetric": false,
+                        "metricKey": "stats|ambientTemp",
+                        "metricName": "Stats|Ambient Temperature",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:4_::_",
+                        "resourceKindName": "Cisco UCS IO Module",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Cisco IO Module Scoreboard (for selected IO Module)",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 5,
+               "y": 25
+            },
+            "height": 267,
+            "id": "214b5349-fafa-44ec-bcca-20b278124d87",
+            "title": "Cisco IO Module Scoreboard (for selected IO Module)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [{
+                  "boxLabel": "Up Time (D:H:M:S)",
+                  "metricKey": "general|systemUpTime",
+                  "metricName": "General|System Up Time",
+                  "resourceKindId": "resourceKind:id:5_::_"
+               }],
+               "mode": 0,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:5_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:5_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Cisco UCS Central Instances"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 1,
+               "y": 1
+            },
+            "height": 210,
+            "id": "0382b8ac-2e47-4d64-a3b2-bb504a118b70",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_0382b8ac-2e47-4d64-a3b2-bb504a118b70",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permResGrid_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_0382b8ac-2e47-4d64-a3b2-bb504a118b70",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A282%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A153%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A171%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A181%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+               }
+            ],
+            "title": "Cisco UCS Central Instances",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Speed (Gbit/s)",
+                     "metricKey": "general|operSpeed",
+                     "metricName": "General|Operating Speed (Gbit/s)",
+                     "resourceKindId": "resourceKind:id:6_::_"
+                  },
+                  {
+                     "boxLabel": "Transport Type",
+                     "metricKey": "general|transport",
+                     "metricName": "General|Transport Type",
+                     "resourceKindId": "resourceKind:id:6_::_"
+                  },
+                  {
+                     "boxLabel": "Type",
+                     "metricKey": "general|type",
+                     "metricName": "General|Type",
+                     "resourceKindId": "resourceKind:id:6_::_"
+                  }
+               ],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:6_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:6_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Cisco UCS Port Channels (for selected IO Module)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 9,
+               "y": 21
+            },
+            "height": 210,
+            "id": "02f5eb16-4b89-4d0d-a72a-00df8d0045d6",
+            "states": [{
+               "key": "permResGrid_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_02f5eb16-4b89-4d0d-a72a-00df8d0045d6",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A254%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A128%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A136%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A111%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Cisco UCS Port Channels (for selected IO Module)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16522-1",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_received_ethernet_port_traffic|totalEtherReceivedBits",
+                        "metricName": "Aggregate Received Ethernet Port Traffic|Total Ethernet Received Bits",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "Cisco UCS Port Channel",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16522-2",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_received_ethernet_port_traffic|totalEtherReceivedPackets",
+                        "metricName": "Aggregate Received Ethernet Port Traffic|Total Ethernet Received Packets",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "Cisco UCS Port Channel",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16522-3",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_sent_ethernet_traffic|totalEtherSentBits",
+                        "metricName": "Aggregate Sent Ethernet Traffic|Total Ethernet Sent Bits",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "Cisco UCS Port Channel",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16522-4",
+                        "isStringMetric": false,
+                        "metricKey": "aggregate_sent_ethernet_traffic|totalEtherSentPackets",
+                        "metricName": "Aggregate Sent Ethernet Traffic|Total Ethernet Sent Packets",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "Cisco UCS Port Channel",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel16522-6",
+                        "isStringMetric": false,
+                        "metricKey": "general|eventCount",
+                        "metricName": "General|Event Count",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "Cisco UCS Port Channel",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel10570-1",
+                        "isStringMetric": false,
+                        "metricKey": "general|bandwidth",
+                        "metricName": "General|Bandwidth",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:6_::_",
+                        "resourceKindName": "Cisco UCS Port Channel",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Ciosc UCS Port Channel Scoreboard (for selected Port Channel)",
+               "valueSize": 24,
+               "visualTheme": 7
+            },
+            "gridsterCoords": {
+               "h": 5,
+               "w": 4,
+               "x": 9,
+               "y": 25
+            },
+            "height": 267,
+            "id": "5e2c97e7-8812-422a-9d5e-2c44dad6a26c",
+            "title": "Ciosc UCS Port Channel Scoreboard (for selected Port Channel)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "MAC Address",
+                     "metricKey": "general|addr",
+                     "metricName": "General|MAC Address",
+                     "resourceKindId": "resourceKind:id:7_::_"
+                  },
+                  {
+                     "boxLabel": "Operational Speed",
+                     "metricKey": "general|operationalSpeed",
+                     "metricName": "General|Operational Speed",
+                     "resourceKindId": "resourceKind:id:7_::_"
+                  },
+                  {
+                     "boxLabel": "Type",
+                     "metricKey": "general|type",
+                     "metricName": "General|Type",
+                     "resourceKindId": "resourceKind:id:7_::_"
+                  }
+               ],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:7_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:7_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Cisco UCS vNICs (for selected Blade)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 13
+            },
+            "height": 210,
+            "id": "97dda3a5-a05f-4ec7-9383-516c47119a05",
+            "states": [{
+               "key": "permResGrid_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_97dda3a5-a05f-4ec7-9383-516c47119a05",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A397%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A142%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A141%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A129%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A123%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Cisco UCS vNICs (for selected Blade)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Type",
+                     "metricKey": "general|type",
+                     "metricName": "General|Type",
+                     "resourceKindId": "resourceKind:id:8_::_"
+                  },
+                  {
+                     "boxLabel": "WWNN",
+                     "metricKey": "general|nodeAddr",
+                     "metricName": "General|World Wide Node Name",
+                     "resourceKindId": "resourceKind:id:8_::_"
+                  },
+                  {
+                     "boxLabel": "WWPN",
+                     "metricKey": "general|addr",
+                     "metricName": "General|World Wide Port Name",
+                     "resourceKindId": "resourceKind:id:8_::_"
+                  }
+               ],
+               "mode": -1,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": false},
+               "tagFilter": {
+                  "path": ["/source/kind/kind:resourceKind:id:8_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": ["resourceKind:id:8_::_"],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [],
+                     "tier": []
+                  }
+               },
+               "title": "Cisco UCS vHBAs (for selected Blade)"
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 13
+            },
+            "height": 210,
+            "id": "933e7d9d-75e0-45d5-b7ca-e51a3968e7ed",
+            "states": [{
+               "key": "permResGrid_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_933e7d9d-75e0-45d5-b7ca-e51a3968e7ed",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A345%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A201%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A208%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100"
+            }],
+            "title": "Cisco UCS vHBAs (for selected Blade)",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 4,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel23983-1",
+                        "isStringMetric": false,
+                        "metricKey": "received_traffic|bitsRx",
+                        "metricName": "Received Traffic|Bits Received",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:7_::_",
+                        "resourceKindName": "Cisco UCS vNIC",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel23983-2",
+                        "isStringMetric": false,
+                        "metricKey": "received_traffic|packetsRx",
+                        "metricName": "Received Traffic|Packets Received",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:7_::_",
+                        "resourceKindName": "Cisco UCS vNIC",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel23983-3",
+                        "isStringMetric": false,
+                        "metricKey": "received_traffic|errorsRx",
+                        "metricName": "Received Traffic|Receiving Errors",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:7_::_",
+                        "resourceKindName": "Cisco UCS vNIC",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel23983-4",
+                        "isStringMetric": false,
+                        "metricKey": "received_traffic|droppedRx",
+                        "metricName": "Received Traffic|Receiving Packets Dropped",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:7_::_",
+                        "resourceKindName": "Cisco UCS vNIC",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel23983-5",
+                        "isStringMetric": false,
+                        "metricKey": "sent_traffic|bitsTx",
+                        "metricName": "Sent Traffic|Bits Transmitted",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:7_::_",
+                        "resourceKindName": "Cisco UCS vNIC",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel23983-6",
+                        "isStringMetric": false,
+                        "metricKey": "sent_traffic|packetsTx",
+                        "metricName": "Sent Traffic|Packets Transmitted",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:7_::_",
+                        "resourceKindName": "Cisco UCS vNIC",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel23983-7",
+                        "isStringMetric": false,
+                        "metricKey": "sent_traffic|errorsTx",
+                        "metricName": "Sent Traffic|Transmission Errors",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:7_::_",
+                        "resourceKindName": "Cisco UCS vNIC",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel23983-8",
+                        "isStringMetric": false,
+                        "metricKey": "sent_traffic|droppedTx",
+                        "metricName": "Sent Traffic|Transmission Packets Dropped",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:7_::_",
+                        "resourceKindName": "Cisco UCS vNIC",
+                        "unit": "Auto"
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Cisco UCS vNIC Scoreboard (for selected vNIC)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 1,
+               "y": 17
+            },
+            "height": 210,
+            "id": "85d23934-2a55-436a-bf9d-6b8b4e8f44a2",
+            "title": "Cisco UCS vNIC Scoreboard (for selected vNIC)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 5,
+               "boxHeight": null,
+               "labelSize": 12,
+               "maxCellCount": 100,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26775-4",
+                        "isStringMetric": false,
+                        "metricKey": "general|eventCount",
+                        "metricName": "General|Event Count",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Cisco UCS vHBA",
+                        "unit": null
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26775-5",
+                        "isStringMetric": false,
+                        "metricKey": "received_traffic|bitsRx",
+                        "metricName": "Received Traffic|Bits Received",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Cisco UCS vHBA",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26775-6",
+                        "isStringMetric": false,
+                        "metricKey": "received_traffic|packetsRx",
+                        "metricName": "Received Traffic|Packets Received",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Cisco UCS vHBA",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26775-7",
+                        "isStringMetric": false,
+                        "metricKey": "received_traffic|errorsRx",
+                        "metricName": "Received Traffic|Receiving Errors",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Cisco UCS vHBA",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26775-8",
+                        "isStringMetric": false,
+                        "metricKey": "received_traffic|droppedRx",
+                        "metricName": "Received Traffic|Receiving Packets Dropped",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Cisco UCS vHBA",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26775-9",
+                        "isStringMetric": false,
+                        "metricKey": "sent_traffic|bitsTx",
+                        "metricName": "Sent Traffic|Bits Transmitted",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Cisco UCS vHBA",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26775-10",
+                        "isStringMetric": false,
+                        "metricKey": "sent_traffic|packetsTx",
+                        "metricName": "Sent Traffic|Packets Transmitted",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Cisco UCS vHBA",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26775-11",
+                        "isStringMetric": false,
+                        "metricKey": "sent_traffic|errorsTx",
+                        "metricName": "Sent Traffic|Transmission Errors",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Cisco UCS vHBA",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26775-12",
+                        "isStringMetric": false,
+                        "metricKey": "sent_traffic|droppedTx",
+                        "metricName": "Sent Traffic|Transmission Packets Dropped",
+                        "metricUnitId": -1,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Cisco UCS vHBA",
+                        "unit": "Auto"
+                     },
+                     {
+                        "colorMethod": 1,
+                        "id": "extModel26775-13",
+                        "isStringMetric": false,
+                        "metricKey": "System Attributes|total_alert_count",
+                        "metricName": "vRealize Operations Generated|Total Alert Count",
+                        "metricUnitId": null,
+                        "resourceKindId": "resourceKind:id:8_::_",
+                        "resourceKindName": "Cisco UCS vHBA",
+                        "unit": null
+                     }
+                  ],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": "last7Days",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": 0,
+               "resInteractionMode": null,
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showDT": {"showDT": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": true},
+               "title": "Ciosc UCS vHBA Scoreboard (for selected vHBA)",
+               "valueSize": 24,
+               "visualTheme": 6
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 6,
+               "x": 7,
+               "y": 17
+            },
+            "height": 210,
+            "id": "1e39dfa7-715d-45ab-b4cc-d20cad63f9e8",
+            "title": "Ciosc UCS vHBA Scoreboard (for selected vHBA)",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [{
+                  "attributeKind": {"value": ""},
+                  "color": {
+                     "maxValue": 100,
+                     "minValue": 0,
+                     "thresholds": {
+                        "colors": [
+                           "#FF0000",
+                           "#FF9900",
+                           "#00FF00"
+                        ],
+                        "values": [
+                           0,
+                           50,
+                           100
+                        ]
+                     }
+                  },
+                  "colorBy": {
+                     "metricKey": "badge|health",
+                     "value": "Badge|Health (%)"
+                  },
+                  "focusOnGroups": true,
+                  "groupBy": {
+                     "id": "004null002015CiscoUcsAdapterbm_ucs_ucs_central",
+                     "parentId": "CiscoUcsAdapter",
+                     "parentText": "Cisco UCS",
+                     "text": "Cisco UCS Central",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:5_::_"
+                  },
+                  "mode": {"mode": false},
+                  "name": "cisco ucs ",
+                  "relationalGrouping": false,
+                  "resourceKind": "resourceKind:id:0_::_",
+                  "sizeBy": {
+                     "metricKey": null,
+                     "value": ""
+                  },
+                  "solidColoring": false,
+                  "tagFilter": null,
+                  "thenBy": {
+                     "id": "004null002015CiscoUcsAdapterbm_ucs_ucs_manager",
+                     "parentId": "CiscoUcsAdapter",
+                     "parentText": "Cisco UCS",
+                     "text": "Cisco UCS Manager",
+                     "type": "resourceKind",
+                     "typeId": "resourceKind:id:0_::_"
+                  }
+               }],
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "title": "Cisco UCS Central/Manager Heatmap",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 4,
+               "w": 4,
+               "x": 5,
+               "y": 1
+            },
+            "height": 210,
+            "id": "755ef910-ca33-4fa9-84b0-68ea9303dcc9",
+            "states": [
+               {
+                  "key": "perm_HeatMap_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_755ef910-ca33-4fa9-84b0-68ea9303dcc9",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_4f58a2a1-6b1c-428c-ac17-b2ac1015b1b3_755ef910-ca33-4fa9-84b0-68ea9303dcc9",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Cisco UCS Central/Manager Heatmap",
+            "type": "Heatmap"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "bm_ucs_ucs_manager"
+      },
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:4_::_",
+         "resourceKindKey": "bm_ucs_io_module"
+      },
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:6_::_",
+         "resourceKindKey": "bm_ucs_port_channel"
+      },
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:2_::_",
+         "resourceKindKey": "bm_ucs_blade"
+      },
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:7_::_",
+         "resourceKindKey": "bm_ucs_vnic"
+      },
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:1_::_",
+         "resourceKindKey": "bm_ucs_fabric_interconnect"
+      },
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:8_::_",
+         "resourceKindKey": "bm_ucs_vhba"
+      },
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:5_::_",
+         "resourceKindKey": "bm_ucs_ucs_central"
+      },
+      {
+         "adapterKindKey": "CiscoUcsAdapter",
+         "internalId": "resourceKind:id:3_::_",
+         "resourceKindKey": "bm_ucs_chassis"
+      }
+   ]},
+   "uuid": "68405b4e-4195-4018-be47-81185ad94863"
+}
